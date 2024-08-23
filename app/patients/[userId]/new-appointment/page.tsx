@@ -9,6 +9,7 @@ export default async function NewAppointment({ params: { userId }}: SearchParamP
     <section className="remove-scrollbar container my-auto">
       <div className="sub-container max-w-[860px] flex-1 justify-between">
         <Image 
+        // 3.19.28
         src="/assets/icons/logo-full.svg"
         height={1000}
         width={1000}
