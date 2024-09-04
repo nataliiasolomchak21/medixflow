@@ -18,7 +18,7 @@ export default function Home({ searchParams}: SearchParamProps) {
         className="mb-12 h-10 w-fit"/>
         <PatientForm />
         <div className="text-14-regular mt-20 flex justify-between">
-          <p className="justify-itmes-end text-dark-600 xl:text-left">Copyright 2024 MedixFlow</p>
+          <p className="justify-itimes-end text-dark-600 xl:text-left">Copyright 2024 MedixFlow</p>
           <Link href="/?admin=true" className="text-green-500">Admin</Link>
         </div>
       </div>

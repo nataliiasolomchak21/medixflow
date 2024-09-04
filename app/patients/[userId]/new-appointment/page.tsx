@@ -1,9 +1,13 @@
 import AppointmentForm from "@/components/forms/AppointmentForm"
 import { getPatient } from "@/lib/actions/patient.actions"
 import Image from "next/image"
+import * as Sentry from '@sentry/nextjs'
 
 export default async function NewAppointment({ params: { userId }}: SearchParamProps) {
     const patient = await getPatient(userId)
+
+    Sentry.metrics.set("user_view_new-appointment", patient.name)
+
  return (
   <div className="flex h-screen max-h-screen">
     <section className="remove-scrollbar container my-auto">
@@ -16,9 +20,9 @@ export default async function NewAppointment({ params: { userId }}: SearchParamP
         alt="patient"
         className="mb-12 h-10 w-fit"/>
         <AppointmentForm 
-            type="create"
+            patientId={patient?.$id}
             userId={userId}
-            patientId={patient.$id}/>
+            type="create"/>
           <p className="copyright mt-10 py-12">Copyright 2024 MedixFlow</p>
       </div>
     </section>
