@@ -195,7 +195,7 @@
   }
 
   .shad-input-label {
-    @apply text-14-medium text-dark-300;
+    @apply text-14-medium text-dark-300 !important;
   }
 
   .shad-input {
@@ -207,7 +207,7 @@
   }
 
   .shad-textArea {
-    @apply bg-white placeholder:text-dark-600 border-dark-500 focus-visible:ring-0 focus-visible:ring-offset-0 !important;
+    @apply bg-white text-dark-400 border-dark-500 focus-visible:ring-0 focus-visible:ring-offset-0 !important;
   }
 
   .shad-combobox-item {
@@ -298,7 +298,7 @@
 .react-datepicker__current-month,
 .react-datepicker__day-name,
 .react-datepicker-time__header {
-  color: #ffffff !important;
+  color: #1a1d21 !important;
 }
 
 .react-datepicker__triangle {
@@ -309,6 +309,7 @@
 
 .react-datepicker__time-list-item:hover {
   background-color: #363a3d !important;
+  color: #ffffff !important;
 }
 
 .react-datepicker__input-container input {
@@ -319,13 +320,13 @@
 }
 
 .react-datepicker__day--selected {
-  background-color: #24ae7c !important;
+  background-color: #60a5fa  !important;
   color: #ffffff !important;
   border-radius: 4px;
 }
 
 .react-datepicker__time-list-item--selected {
-  background-color: #24ae7c !important;
+  background-color: #60a5fa  !important;
 }
 
 .react-datepicker__time-container {
