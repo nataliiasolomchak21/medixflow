@@ -18,7 +18,7 @@ const SuccessPage = async ({ params : { userId }, searchParams }: SearchParamPro
   return (
     <div className='flex h-screen max-h-screen px-[5%]'>
       <div className='success-img'>
-        <Link href='/'>
+        <Link href='/' className='cursor-pointer'>
         <Image 
             src="/assets/icons/logo-full.png"
             height={1000}

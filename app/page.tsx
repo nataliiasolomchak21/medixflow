@@ -10,12 +10,15 @@ export default function Home({ searchParams}: SearchParamProps) {
     {isAdmin && <PasskeyModal />}
     <section className="remove-scrollbar container my-auto">
       <div className="sub-container max-w-[496px]">
-        <Image 
-        src="/assets/icons/logo-full.png"
-        height={1000}
-        width={1000}
-        alt="patient"
-        className="mb-12 h-10 w-fit"/>
+      <Link href="/" className='cursor-pointer'>
+          <Image 
+            src="/assets/icons/logo-full.png"
+            height={1000}
+            width={1000}
+            alt="patient"
+            className="mb-12 h-10 w-fit"
+          />
+      </Link>
         <PatientForm />
         <div className="text-14-regular mt-20 flex justify-between">
           <p className="justify-itimes-end text-dark-500 xl:text-left">© 2024 MedixFlow</p>
