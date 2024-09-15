@@ -78,7 +78,7 @@ const RegisterForm = ({ user }: { user: User }) => {
         {/* PERSONAL INFORMATION */}
         <section className="space-y-6">
           <div className="mb-9 space-y-1">
-            <h2 className="sub-header">Personal Information</h2>
+            <h2 className="sub-header text-dark-400">Personal Information</h2>
           </div>
         </section>
         {/* Name */}
@@ -88,7 +88,6 @@ const RegisterForm = ({ user }: { user: User }) => {
           name="name"
           label="Name"
           placeholder="John Doe"
-          iconSrc="/assets/icons/user.svg"
           iconAlt="user"
         />
         {/* Email & Phone number */}
@@ -99,7 +98,6 @@ const RegisterForm = ({ user }: { user: User }) => {
             name="email"
             label="Email"
             placeholder="johndoe@gmail.com"
-            iconSrc="/assets/icons/email.svg"
             iconAlt="email"
           />
           <CustomFormField
@@ -117,9 +115,6 @@ const RegisterForm = ({ user }: { user: User }) => {
             control={form.control}
             name="birthDate"
             label="Date of Birth"
-            placeholder="johndoe@gmail.com"
-            iconSrc="/assets/icons/email.svg"
-            iconAlt="email"
           />
           <CustomFormField
             fieldType={FormFieldType.SKELETON}
@@ -192,7 +187,7 @@ const RegisterForm = ({ user }: { user: User }) => {
         {/* MEDICAL INFORMATION */}
         <section className="space-y-6">
           <div className="mb-9 space-y-1">
-            <h2 className="sub-header">Medical Information</h2>
+            <h2 className="sub-header text-dark-400">Medical Information</h2>
           </div>
         </section>
         {/* Select your physician */}
@@ -275,7 +270,7 @@ const RegisterForm = ({ user }: { user: User }) => {
         {/* Identification and Verification */}
         <section className="space-y-6">
           <div className="mb-9 space-y-1">
-            <h2 className="sub-header">Identification and Verification</h2>
+            <h2 className="sub-header text-dark-400">Identification and Verification</h2>
           </div>
         </section>
 
@@ -302,7 +297,6 @@ const RegisterForm = ({ user }: { user: User }) => {
           name="identificationNumber"
           label="Identification number"
           placeholder="123456789"
-          iconSrc="/assets/icons/user.svg"
           iconAlt="user"
         />
 
@@ -313,7 +307,6 @@ const RegisterForm = ({ user }: { user: User }) => {
           label="Scanned copy of identification document"
           renderSkeleton={(field) => (
             <FormControl>
-              {/* 2:10:02 */}
               <FileUploader
                 files={field.value}
                 onChange={field.onChange}
@@ -324,7 +317,7 @@ const RegisterForm = ({ user }: { user: User }) => {
         {/* Consent & Privacy */}
         <section className="space-y-6">
           <div className="mb-9 space-y-1">
-            <h2 className="sub-header">Consent and Privacy</h2>
+            <h2 className="sub-header text-dark-400">Consent and Privacy</h2>
           </div>
         </section>
 

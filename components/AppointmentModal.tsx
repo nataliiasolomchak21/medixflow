@@ -28,8 +28,8 @@ const AppointmentModal = ({ type, patientId, userId, appointment, }: {
         </DialogTrigger>
         <DialogContent className="shad-dialog sm:max-w-md">
             <DialogHeader className="mb-4 space-y-3">
-            <DialogTitle className="capitalize">{type} Appointment</DialogTitle>
-            <DialogDescription>
+            <DialogTitle className="capitalize text-dark-400">{type} Appointment</DialogTitle>
+            <DialogDescription className="text-dark-400">
                 Please fil in the following details to {type} an appointment
             </DialogDescription>
             </DialogHeader>

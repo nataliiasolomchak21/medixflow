@@ -15,13 +15,13 @@ const Admin = async () => {
       <header className='admin-header'>
         <Link href="/" className='cursor-pointer'>
         <Image 
-        src="/assets/icons/logo-full.svg"
+        src="/assets/icons/logo-full.png"
         height={32}
         width={162}
         alt="Logo"
         className='h-8 w-fit'/>
         </Link>
-        <p className='text-16-semibold'>Admin Dashboard</p>
+        <p className='text-16-semibold text-black'>Admin Dashboard</p>
       </header>
       <main className='admin-main'>
         <section className='w-full space-y-4'>
