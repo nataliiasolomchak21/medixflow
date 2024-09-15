@@ -312,9 +312,10 @@
 }
 
 .react-datepicker__input-container input {
-  background-color: #1a1d21 !important;
+  background-color: transparent !important;
   width: 100%;
   outline: none;
+  color: #1a1d21;
 }
 
 .react-datepicker__day--selected {
@@ -341,11 +342,11 @@
   outline: none;
   margin-left: 4px;
   background: transparent;
-  color: #1a1d21;
+  color: #1a1d21 !important;
   font-size: 14px;
   font-weight: 500;
 }
 
 .PhoneInputInput::placeholder {
-  color: #1a1d21;
+  color: #1a1d21 !important;
 }
