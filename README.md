@@ -8,21 +8,21 @@ MedixFlow is a web application designed for managing patient appointments and re
 
 ## Features
 
-- ✅ **Patient Registration**: Users can sign up and create a personal profile to manage their healthcare needs.
+✅ **Patient Registration**: Users can sign up and create a personal profile to manage their healthcare needs.
 
-- ✅ **Schedule Appointments**: Patients can easily book new appointments with doctors and manage multiple appointments as needed.
+✅ **Schedule Appointments**: Patients can easily book new appointments with doctors and manage multiple appointments as needed.
 
-- ✅ **Appointment Management for Admins**: Administrators can efficiently view, modify, and manage all scheduled appointments.
+✅ **Appointment Management for Admins**: Administrators can efficiently view, modify, and manage all scheduled appointments.
 
-- ✅ **Admin Appointment Confirmation**: Admins can confirm and set appointment times to ensure accurate scheduling.
+✅ **Admin Appointment Confirmation**: Admins can confirm and set appointment times to ensure accurate scheduling.
 
-- ✅ **Appointment Cancellation by Admins**: Administrators can cancel any appointment if required.
+✅ **Appointment Cancellation by Admins**: Administrators can cancel any appointment if required.
 
-- ✅ **SMS Notifications for Confirmations**: Patients receive SMS alerts to confirm their appointment details and updates.
+✅ **SMS Notifications for Confirmations**: Patients receive SMS alerts to confirm their appointment details and updates.
 
-- ✅ **Fully Responsive Design**: The application is optimized for a seamless experience across all devices and screen sizes.
+✅ **Fully Responsive Design**: The application is optimized for a seamless experience across all devices and screen sizes.
 
-- ✅ **Secure File Uploads**: Users can upload and store files securely using Appwrite storage services integrated into the application.
+✅ **Secure File Uploads**: Users can upload and store files securely using Appwrite storage services integrated into the application.
 
 
 ## Technologies Used
